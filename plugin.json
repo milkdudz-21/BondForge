@@ -1,0 +1,15 @@
+{
+  "name": "BondForge",
+  "version": "0.2.0",
+  "contactEmailAddress": "milkdudz21@gmail.com",
+  "requiredDependencies": {},
+  "optionalDependencies": {},
+  "requiredPermissions": [],
+  "optionalPermissions": [
+    "httpAccess"
+  ],
+  "urls": {
+    "wiki": "https://runescape.wiki",
+    "officialGE": "https://services.runescape.com"
+  }
+}
