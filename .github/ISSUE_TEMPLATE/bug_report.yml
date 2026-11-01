@@ -1,0 +1,47 @@
+name: Bug report
+description: Report a reproducible problem with BondForge
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for helping improve BondForge. Do not include account credentials or private information."
+  - type: input
+    id: version
+    attributes:
+      label: BondForge version
+      placeholder: "v0.2.0"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What went wrong?
+      description: Include the expected and actual behaviour.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open BondForge\n2. ...\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or error messages
+      description: Remove personal details before posting.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Grand Exchange price fetching
+        - Profit or Bond calculation
+        - Inventory or batch tracking
+        - Progress saving or resetting
+        - Expanded or compact interface
+        - Other
+    validations:
+      required: true
